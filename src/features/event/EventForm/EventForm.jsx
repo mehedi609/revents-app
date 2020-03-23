@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import { Button, Form, FormField, Segment } from "semantic-ui-react";
 
 class EventForm extends Component {
+  constructor(props) {
+    super(props);
+    console.log("Event Form Contractor called..\n");
+  }
   state = {
     title: "",
     date: "",
@@ -10,9 +14,22 @@ class EventForm extends Component {
     hostedBy: "",
   };
 
-  handleFormSubmit = (event) => {
-    event.preventDefault();
-    this.props.createEvent(this.state);
+  componentDidMount() {
+    const { selectedEvent } = this.props;
+    if (selectedEvent !== null) {
+      this.setState({ ...selectedEvent });
+    }
+  }
+
+  handleFormSubmit = (e) => {
+    const { createEvent, updateEvent } = this.props;
+    e.preventDefault();
+    this.state.id ? updateEvent(this.state) : createEvent(this.state);
+    /*if (this.state.id) {
+      updateEvent(this.state);
+    } else {
+      createEvent(this.state);
+    }*/
   };
 
   handleInputChange = ({ target: { name, value } }) => {
