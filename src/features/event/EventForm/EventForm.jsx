@@ -2,10 +2,6 @@ import React, { Component } from "react";
 import { Button, Form, FormField, Segment } from "semantic-ui-react";
 
 class EventForm extends Component {
-  constructor(props) {
-    super(props);
-    console.log("Event Form Contractor called..\n");
-  }
   state = {
     title: "",
     date: "",
