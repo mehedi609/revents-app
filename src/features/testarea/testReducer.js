@@ -9,8 +9,8 @@ const incrementCounter = (state) => ({ ...state, data: state.data + 1 });
 const decrementCounter = (state) => ({ ...state, data: state.data - 1 });
 
 const testReducer = createReducer(initialState, {
-  INCREMENT_COUNTER: incrementCounter,
-  DECREMENT_COUNTER: decrementCounter,
+  [INCREMENT_COUNTER]: incrementCounter,
+  [DECREMENT_COUNTER]: decrementCounter,
 });
 
 export default testReducer;

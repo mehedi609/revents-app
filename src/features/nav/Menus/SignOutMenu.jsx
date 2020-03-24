@@ -17,6 +17,6 @@ const SignOutMenu = (props) => {
   );
 };
 
-SignOutMenu.propTypes = {};
+SignOutMenu.propTypes = { signIn: PropTypes.func.isRequired };
 
 export default SignOutMenu;

@@ -33,6 +33,6 @@ const SignedInMenu = (props) => {
   );
 };
 
-SignedInMenu.propTypes = {};
+SignedInMenu.propTypes = { signOut: PropTypes.func.isRequired };
 
 export default SignedInMenu;

@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { Grid, GridColumn } from "semantic-ui-react";
 import SettingsNav from "./SettingsNav";
 import BasicPage from "./BasicPage";
