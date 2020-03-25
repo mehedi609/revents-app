@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9a0591-b0c3-4abf-8803-44810046b6cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/categoryImages/culture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/categoryImages/drinks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/categoryImages/film.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/categoryImages/food.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/categoryImages/music.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/categoryImages/travel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/event/EventDashboard/EventDashboard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/event/EventForm/EventForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/event/EventList/EventList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/event/EventList/EventListAttendee.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/event/EventList/EventListItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/nav/NavBar/NavBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +39,9 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="$USER_HOME$/AppData/Roaming/npm/node_modules/npm" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\mehediPC\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -103,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584862276219</updated>
       <workItem from="1584862277926" duration="9916000" />
+      <workItem from="1585126296569" duration="2446000" />
     </task>
     <servers />
   </component>
@@ -114,33 +92,47 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="437" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.-10.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1584864307251" />
-    <state x="330" y="51" key="CommitChangelistDialog2" timestamp="1584882556987">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1585138709409">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1585138709409" />
     <state x="330" y="51" key="CommitChangelistDialog2/1920.-10.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1584882556987" />
     <state x="438" y="312" key="EditFileWatcherDialog" timestamp="1584863781086">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="438" y="312" key="EditFileWatcherDialog/1920.-10.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1584863781086" />
-    <state width="1376" height="272" key="GridCell.Tab.0.bottom" timestamp="1584881231136">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="672" height="171" key="GridCell.Tab.0.bottom" timestamp="1585129781634">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="672" height="171" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1585129781634" />
     <state width="1376" height="272" key="GridCell.Tab.0.bottom/1920.-10.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1584881231136" />
-    <state width="1376" height="272" key="GridCell.Tab.0.center" timestamp="1584881231136">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="672" height="171" key="GridCell.Tab.0.center" timestamp="1585129781634">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="672" height="171" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1585129781634" />
     <state width="1376" height="272" key="GridCell.Tab.0.center/1920.-10.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1584881231136" />
-    <state width="1376" height="272" key="GridCell.Tab.0.left" timestamp="1584881231135">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="672" height="171" key="GridCell.Tab.0.left" timestamp="1585129781634">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="672" height="171" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1585129781634" />
     <state width="1376" height="272" key="GridCell.Tab.0.left/1920.-10.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1584881231135" />
-    <state width="1376" height="272" key="GridCell.Tab.0.right" timestamp="1584881231136">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="672" height="171" key="GridCell.Tab.0.right" timestamp="1585129781634">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="672" height="171" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1585129781634" />
     <state width="1376" height="272" key="GridCell.Tab.0.right/1920.-10.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1584881231136" />
-    <state x="272" y="182" key="SettingsEditor" timestamp="1584863784885">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="194" y="53" key="SettingsEditor" timestamp="1585126604803">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="194" y="53" key="SettingsEditor/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1585126604803" />
     <state x="272" y="182" key="SettingsEditor/1920.-10.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1584863784885" />
+    <state x="448" y="15" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585138632624">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="448" y="15" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1585138632624" />
+    <state x="452" y="163" key="git4idea.merge.GitMergeDialog" timestamp="1585138722218">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="452" y="163" key="git4idea.merge.GitMergeDialog/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1585138722218" />
   </component>
 </project>
