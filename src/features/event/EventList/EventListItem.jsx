@@ -13,10 +13,11 @@ import {
   SegmentGroup,
 } from "semantic-ui-react";
 import EventListAttendee from "./EventListAttendee";
+import { Link } from "react-router-dom";
 
 class EventListItem extends Component {
   render() {
-    const { event } = this.props;
+    const { event, deleteEvent } = this.props;
     return (
       <SegmentGroup>
         <Segment>
@@ -25,9 +26,7 @@ class EventListItem extends Component {
               <ItemImage size="tiny" circular src={event.hostPhotoURL} />
               <ItemContent>
                 <ItemHeader as="a">{event.title}</ItemHeader>
-                <ItemDescription>
-                  Hosted by <a>{event.hostedBy}</a>
-                </ItemDescription>
+                <ItemDescription>Hosted by {event.hostedBy}</ItemDescription>
               </ItemContent>
             </Item>
           </ItemGroup>
@@ -40,14 +39,28 @@ class EventListItem extends Component {
         </Segment>
         <Segment secondary>
           <List horizontal>
-            {event.attendees.map((attendee) => (
-              <EventListAttendee attendee={attendee} key={attendee.id} />
-            ))}
+            {event.attendees &&
+              event.attendees.map((attendee) => (
+                <EventListAttendee attendee={attendee} key={attendee.id} />
+              ))}
           </List>
         </Segment>
         <Segment clearing>
           <span>{event.description}</span>
-          <Button as="a" color="teal" floated="right" content="View" />
+          <Button
+            onClick={() => deleteEvent(event.id)}
+            as="a"
+            color="red"
+            floated="right"
+            content="Delete"
+          />
+          <Button
+            as={Link}
+            to={`/events/${event.id}`}
+            color="teal"
+            floated="right"
+            content="View"
+          />
         </Segment>
       </SegmentGroup>
     );
